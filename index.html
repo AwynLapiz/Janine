@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		Create a Portfolio Gallery
+		using HTML and CSS
+	</title>
+	
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1">
+		
+	<style>
+	
+		/* wildcard styling */
+		* {
+			box-sizing: border-box;
+		}
+		
+		/* padding for whole body */
+		body {
+			padding: 15px;
+		}
+		
+		/* styling body */
+		.container {
+			max-width: 1200px;
+			margin: auto;
+		}
+		
+		h1 {
+			color: rgb(33, 119, 190);
+		}
+		
+		/* anchor tag decoration */
+		a {
+			text-decoration: none;
+			color: #12316b;
+		}
+		
+		a:hover {
+			color: lightblue;
+		}
+		
+		/* paragraph tag decoration */
+		p {
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 15;
+			overflow: hidden;
+	
+		}
+		
+		/* row and column decoration */
+		.row {
+			margin: 0px -18px;
+			padding: 8px;
+		}
+		
+		.row > .column {
+			padding: 6px;
+		}
+		
+		.column {
+			float: left;
+			width: 50%;
+		}
+		
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+		
+		/* content decoration */
+		.content {
+			background-color: rgb(221, 238, 252);
+			padding: 10px;
+			border: 1px solid rgb(119, 119, 119);
+		}
+		
+		/* window size 850 width set */
+		@media screen and (max-width: 850px) {
+			.column {
+				width: 50%;
+			}
+		}
+	
+		/* window size 400 width set */
+		@media screen and (max-width: 400px) {
+			.column {
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	
+	<!-- title and tag -->
+	<div class="container">
+		<h1>Portfolio Gallery</h1>
+		<h3>Senior High School Strand</h3>
+		<hr>
+
+		<!-- Content of the body-->
+		<h2>Portfolio</h2>
+		<div class="row">
+			<div class="column">
+				<div class="content">
+					<img src=
+"ABM.jpg"
+						alt="" style="width:100%">
+					<h3>
+						<a href="#">Accountancy, Business and Management Track</a>
+					</h3>
+					
+
+
+
+<p>
+	Accountancy, Business, and Management Strand or ABM strand seeks to prepare the young business leaders of tomorrow. ABM strand paves the way for business-related college degrees. It teaches the basic concepts of financial management, accounting, and corporate operations.This program includes subjects that will help you develop basic accounting and financial skills. These subjects will teach you the fundamentals of auditing, business law, and taxation, which will help you understand the core of accounting college courses.
+					</p>
+
+
+
+
+				</div>
+			</div>
+			
+			<div class="column">
+				<div class="content">
+					<img src=
+"4.jpg"
+						alt="" style="width:100%">
+					<h3>
+						<a href="#">Humanities and Social Sciences Track</a>
+					</h3>
+					
+					
+
+
+
+<p>
+	HUMSS is short for humanities and social sciences. It is an academic strand covering various fields that deal with the exploration of the human condition using analytical, critical, and empirical ways  and thereby studying changes in society and human behavior.  It is all about educating students on the foundations of the human behavior and how they have come to influence different societal phenomenon such as arts, culture, religion, literature, and even the politics of their era.
+					</p>
+
+
+
+
+				</div>
+			</div>
+			
+			<div class="column">
+				<div class="content">
+					<img src=
+"3.jpg"
+						alt="" style="width:100%">
+					<h3>
+						<a href="#">Information and Communication Technology Track</a>
+					</h3>
+					
+					
+
+
+
+<p>
+	Communication and Technology or ICT Strand is one of the strands offered under Technical-Vocational Livelihood (TVL) Track of K-12 curriculum. ICT strand subjects seek to teach students concepts and skills in information technology. It refers to the study of any technology that uses telecommunication to store, transmit or access digital information. It focuses on the way that modern technology affects our society and how we communicate.
+					</p>
+
+
+
+
+				</div>
+			</div>
+			
+			<div class="column">
+				<div class="content">
+					<img src=
+"2.jpg"
+						alt="" style="width:100%">
+					<h3>
+						<a href="#">Agri-Fishery Arts Track</a>
+					</h3>
+					
+					
+
+
+
+<p>
+	The Agri-Fishery strand was designed for hands-on learning and application of skills that are related to agriculture and aquaculture. You will be taking various subjects that are connected to other jobs such as food processing, rubber production, animal production, or landscape installation. Applying your knowledge in Agrifishery Arts can increase the production of food like fish, meat, egg and milk or different vegetables that give nutrients to our body. It can also protect our environment by planting trees, this can increase income and provide a better livelihoods.
+					</p>
+
+
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>		
